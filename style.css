@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.section {
+  padding: 100px 10px;
+  background: white;
+}
+
+.section h1 {
+  color: grey;
+  margin-bottom: 50px;
+  border-top-color: black;
+}
+
+.section h2 {
+  font-size: 40px;
+}
+
+.section p {
+  font-size: 14px;
+}
+
+.dress-picture {
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
