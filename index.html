@@ -1,95 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Ma petite robe blanche</title>
-  </head>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ma petite robe blanche</title>
+ 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
+<body>
 
-  <body>
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo.jpg" alt="logo">
+  </a>
 
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
 
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Nos collections</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Notre histoire</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Nous contacter</a>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Ma petite robe blanche</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Notre histoire</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Nous contacter</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Nos collections
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Robes de mariées</a>
-          <a class="dropdown-item" href="#">Robes de demoiselles d'honneur</a>
-          <a class="dropdown-item" href="#">Robes de cocktail</a>
-        </div>
-      </li>
-    </ul>
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="images/tourislande.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Mon panier</a></li>
+          <li><a href="#">Se connecter</a></li>
+          <li><a href="#">S'inscrire</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-</nav>
 
-<imgwidth: 100% \9; src="images/coco.jpg" class="img-fluid" alt="Responsive image">
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Mon panier</a></li>
+        <li><a href="#">Se connecter</a></li>
+        <li><a href="#">S'inscrire</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    <div class="section text-center">
-      <h1>Trouvez la robe de vos rêves</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
-              <h2>Robes de mariées</h2>
-              <p>Ma petite robe blanche vous propose une large séléction de robes de mariées pour vous sublimer le Jour J.</p>
-              <img class="dress-picture" src="images/mariee.png" alt="dress-picture">
-              <a href="#" class="btn btn-danger">Voir</a>
-            </div>
+<div class="banner" style="background-image: url('https://i.pinimg.com/564x/97/ea/e2/97eae23959f14670e12151f5061dbc64.jpg');">
+  <div class="banner-content">
+      <img src="images/logo.png" id="logo">
+      <h1>Ma petite robe blanche</h1>
+      <h2>Le chic à la Française</h2>
+      <a href="#section1" class="btn btn-primary btn-lg">Découvrir</a>
+  </div>
+</div >
+
+  <div id="section1">
+    <h3>Nos collections</h3>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card">
+           <img src="images/marie.jpg" alt="italian food picture", class="coco">
+           <h4>Nos robes de mariées</h4>
+           <p> Ma petite robe blanche vous propose une large séléction de robes de mariées pour vous sublimer le Jour J.</p>
+           <a href="#section2" class="btn btn-danger mybutton">Voir</a>
+         </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="images/demoiselle.jpg" alt="italian food picture", class="coco">
+            <h4>Robes de demoiselles d'honneurs</h4>
+            <p> Qui dit mariage dit demoiselle d'honneur: trouvez la robe idéale pour une soirée inoubliable. </p>
+            <a href="#section2" class="btn btn-danger mybutton">Voir</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
-              <h2>Robes de demoiselles d'honneur</h2>
-              <p>Qui dit mariage dit demoiselle d'honneur: trouvez la robe idéale pour une soirée inoubliable</p>
-              <img class="dress--picture" src="images/robe.png" alt="dress-picture">
-              <a href="#" class="btn btn-danger">Voir</a>
-            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="images/noire.jpg" alt="italian food picture", class="coco">
+            <h4>Robes de cocktails</h4>
+            <p> Soyez irrésistibles dans l'une de nos robes de cocktail!</p>
+            <a href="#section2" class="btn btn-danger mybutton">Voir</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
-              <h2>Robes de coctails</h2>
-              <p>Soyez irrésistibles dans l'une de nos robes de cocktail. </p>
-              <img class="dress-picture" src="images/cocktail.png" alt="dress-picture">
-              <a href="#" class="btn btn-danger">Voir</a>
-            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+           <img src="images/smoking.jpg" alt="italian food picture", class="coco">
+           <h4>Costumes et smoking</h4>
+           <p>Chez "Ma petite robe blanche" on ne vous oublie pas messieurs! Un large choix de costumes et smocking sont disponibles pour vous.</p>
+           <a href="#section2" class="btn btn-danger mybutton">Voir</a>
+         </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="images/chaussures.jpg" alt="italian food picture", class="coco">
+            <h4>Chaussures</h4>
+            <p>Trouvez chaussure à votre pied chez Ma Petite Robe Blanche.</p>
+            <a href="#section2" class="btn btn-danger mybutton">Voir</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
-              <h2>Costumes et smocking</h2>
-              <p>Chez "Ma petite robe blanche" on ne vous oublie pas messieurs! Un large choix de costumes et smocking sont disponibles pour vous. </p>
-              <img class="dress-picture" src="images/smocking.png" alt="dress-picture">
-              <a href="#" class="btn btn-danger">Voir</a>
-            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <img src="images/accessoires.jpg" alt="italian food picture", class="coco">
+            <h4>Accessoires</h4>
+            <p>Trouvez ici le petit détail qui fera toute la différence...</p>
+            <a href="#section2" class="btn btn-danger mybutton">Voir</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+  
 
 
-<div class="typeform-widget" data-url="https://taupasclo.typeform.com/to/tfEcg5" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=tfEcg5&utm_source=typeform.com-12788055-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+ <div class="typeform-widget" data-url="https://taupasclo.typeform.com/to/tfEcg5" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=tfEcg5&utm_source=typeform.com-12788055-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
-		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90493.58959809673!2d-0.6561807602598622!3d44.863828220071056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2sBordeaux!5e0!3m2!1sfr!2sfr!4v1541602735015" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+  <div id="footer">
+    <ul class="list-inline">
+      <li><a href="https://www.facebook.com/guidetoiceland.is/"><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href="https://twitter.com/hashtag/iceland"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a href="https://www.linkedin.com/company/iceland"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+    <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo.jpg" alt="logo">
+    </a>
+  </div>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90493.58959809673!2d-0.6561807602598622!3d44.863828220071056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2sBordeaux!5e0!3m2!1sfr!2sfr!4v1541602735015" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
