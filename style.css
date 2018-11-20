@@ -1,38 +1,223 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
+body{
+    background-color: white;
 }
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-}
-
-.section {
-  padding: 100px 10px;
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.section h1 {
-  color: grey;
-  margin-bottom: 50px;
+/* Logo */
+.navbar-wagon-brand img {
+  height: 50px;
 }
 
-.section h2 {
-  font-size: 40px;
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
 }
 
-.section p {
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: black;
   font-size: 14px;
 }
-
-.dress-picture {
-  height: 400px;
-  object-fit: cover;
-  margin-bottom: 5px;
-  border-radius: 4px;
+.navbar-wagon-link:hover {
+  color: grey;
+  text-decoration: none;
 }
 
-.card {
-  padding: 20px;
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: grey;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 65vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #FDFFE8;
   margin-bottom: 20px;
+  padding:25px 0px 0px 0px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color:black;
+  text-align:center;
+  padding:25px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: black;
+  text-align:center;
+  padding:10px 0px 0px 0px;
+
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: black;
+  text-align: center;
+  padding:25px 0px 0px 0px;
+}
+
+img{
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  text-align: center;
+  position:relative;
+  left:25px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #006989;
+  padding:10px 0px 0px 0px;
+  text-align:justify;
+}
+
+h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #FDFFE8;text-align: center;
+  padding:15px 0px 0px 0px;
+}
+
+.btn-primary{
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  padding:25px 0px 0px 0px;
+  height:75px;
+  width:200px;
+}
+
+.mybutton{
+  padding:20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.card{
+  padding: 20px;
+  background: transparent;
+  margin: 10px;
+  border: 2px solid #006989;
+  text-align:center;
+}
+
+.coco {
+  width: 250px;
+  height: 250px;
+}
+
+.mybutton {
+  background: transparent;
+  border: 2px black;
+}
+
+
+#logo{
+  width:125px;
+  height:125px;
+  position:relative;
+  top:-75px;
+  left: -600px;
+}
+
+.change{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: black;
+  text-align:center;
+}
+
+#footer a {
+  color: white;
+  font-size: 40px;
 }
